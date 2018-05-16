@@ -1,0 +1,18 @@
+//L
+push
+move 50 250 0
+box 0 150 0 50 300 10
+box 0 -100 0 100 50 10
+//O
+push
+move 200 0 0
+rotate x 90
+torus 0 0 0 10 75
+//L
+pop
+push
+move 325 0 0
+box 0 150 0 50 300 10
+box 0 -100 0 100 50 10
+display
+save lol.png
